@@ -51,7 +51,7 @@ const Footer = ({
             />
           </Link>
         </div>
-        <div className=" flex my-auto">
+        <div className="pr-10 flex my-auto">
           <Icon />
         </div>
       </div>
