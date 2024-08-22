@@ -21,7 +21,7 @@ const Header = ({ activeSection }: { activeSection: string }) => {
           </Link>
         </div>
         <div className=" flex my-auto">
-          <Icon />
+          <Icon />test
         </div>
       </div>
       <div className="flex justify-center">
