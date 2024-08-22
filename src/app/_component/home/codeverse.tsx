@@ -58,8 +58,8 @@ const Codeverse = ({
           <Image
             src="/image/circle1.svg"
             alt="portfolio"
-            width={220}
-            height={220}
+            width={400}
+            height={400}
             priority
           />
         </div>

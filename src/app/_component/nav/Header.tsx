@@ -7,7 +7,7 @@ import Link from "next/link";
 const Header = ({ activeSection }: { activeSection: string }) => {
   return (
     <div>
-      <div className="w-full px-[24px] pt-[59px] lg:pt-[60px] lg:px-[71px] lg:h-[100px] h-[80px] z-50 flex justify-between">
+      <div className="w-full px-[24px] pt-[59px] lg:pt-[50px] lg:px-[71px] lg:h-[100px] h-[80px] z-50 flex justify-between">
         <div className="flex my-auto">
           <Link href="/#home">
             <Image
@@ -21,7 +21,7 @@ const Header = ({ activeSection }: { activeSection: string }) => {
           </Link>
         </div>
         <div className=" flex my-auto">
-          <Icon />test
+          <Icon />
         </div>
       </div>
       <div className="flex justify-center">

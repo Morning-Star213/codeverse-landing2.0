@@ -11,7 +11,7 @@ import Footer from "./_component/nav/Footer";
 export default function Home() {
   const [activeSection, setActiveSection] = useState<string>("home");
   return (
-    <div>
+    <div className="grid-x flex mx-auto flex-col">
       <Header activeSection={activeSection} />
       <div className="md:px-10 lg:px-20 px-5">
         <div className="flex justify-center">

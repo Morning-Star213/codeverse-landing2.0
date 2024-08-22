@@ -35,13 +35,13 @@ const Portfolio = ({
   }, [id, setActiveSection]);
 
   return (
-    <div id={id} className=" relative">
-      <div className=" absolute top-[100px] left-[-80px] -z-10">
+    <div id={id}>
+      <div className=" absolute top-[2500px] left-[0px] -z-10">
         <Image
           src="/image/circle3.svg"
           alt="portfolio"
           width={200}
-          height={200}
+          height={100}
           priority
         />
       </div>

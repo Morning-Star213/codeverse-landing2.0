@@ -5,3 +5,7 @@
 html {
     scroll-behavior: smooth;
   }
+
+.grid-x {
+  max-width: 1440px;
+}

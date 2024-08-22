@@ -7,7 +7,7 @@ const Icon = () => {
   const [f, setF] = useState<boolean>(false);
   const [m, setM] = useState<boolean>(false);
   return (
-    <div className="flex md:gap-5 gap-3">
+    <div className="flex md:gap-8 gap-3">
       <div onMouseEnter={() => setF(true)} onMouseLeave={() => setF(false)}>
         {f ? (
           <Image

@@ -50,8 +50,8 @@ const Skills = ({
             src="/image/circle2.svg"
             className=" max-w-[100%] h-auto px-0 mx-0"
             alt="portfolio"
-            width={220}
-            height={220}
+            width={400}
+            height={400}
             priority
           />
         </div>
@@ -71,9 +71,7 @@ const Skills = ({
             </div>
             <div
               className={`${
-                back
-                  ? "pb-[15px]"
-                  : `sm:hidden  pb-[15px]`
+                back ? "pb-[15px]" : `sm:hidden  pb-[15px]`
               } lg:basis-2/3 sm:flex items-center sm:basis-2/3 sm:justify-between `}
             >
               <div className="text-[9px] lg:text-[10px] xl:text-[13px]">
