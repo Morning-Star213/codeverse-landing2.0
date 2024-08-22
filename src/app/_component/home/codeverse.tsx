@@ -64,8 +64,16 @@ const Codeverse = ({
           />
         </div>
         <div className="flex justify-center sm:pt-[187px] md:pt-[100px] xl:pt-[170px] pt-[50px]"></div>
-        <div className="sm:hidden flex justify-center pt-[140px] text-gray-400 hover:cursor-pointer hover:text-white">
-          <Link href={"/#contact"}>∨ </Link>
+        <div className="sm:hidden flex justify-center pt-[140px] hover:cursor-pointer">
+          <Link href={"/#contact"}>
+            <Image
+              src="/image/downarrow.svg"
+              alt="portfolio"
+              width={25}
+              height={25}
+              priority
+            />{" "}
+          </Link>
         </div>
       </div>
     </div>

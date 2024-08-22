@@ -66,16 +66,16 @@ const Portfolio = ({
                 />
               </div>
               <div className="flex justify-between relative">
-                <div className="flexflex-col sm:m-0">
-                  <div className="text-[15px] sm:text-[25px] md:text-[30px] lg:text-[23px] xl:text-[25px] 2xl:text-[30px] pt-2 sm:pt-4 pb-[12px] sm:pb-[14px] flex">
+                <div className="flex flex-col sm:m-0">
+                  <div className="text-[18px] sm:text-[25px] md:text-[30px] lg:text-[23px] xl:text-[25px] 2xl:text-[30px] pt-4 sm:pt-4 pb-[6px] sm:pb-[10px] flex">
                     {val.title}
                   </div>
-                  <div className=" text-[9px] sm:flex pb-10 md:text-[16px] lg:text-[9px] xl:text-[12px] 2xl:text-[16px]">
+                  <div className=" text-[11px] sm:flex pb-10 md:text-[16px] lg:text-[9px] xl:text-[12px] 2xl:text-[16px]">
                     {val.text}
                   </div>
                 </div>
                 <div
-                  className="scale-[0.7] sm:flex xl:scale-[0.8] 2xl:scale-100 hover:cursor-pointer"
+                  className="scale-[0.9] my-auto sm:flex xl:scale-[0.9] 2xl:scale-100 hover:cursor-pointer"
                   onMouseEnter={() => setMore(index)}
                   onMouseLeave={() => setMore(null)}
                 >
