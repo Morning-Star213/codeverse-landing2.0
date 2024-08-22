@@ -34,7 +34,7 @@ const Footer = ({
   }, [id, setActiveSection]);
 
   return (
-    <div className="pt-[70px] -z-50 bg-[#2E2E2E]" id={id}>
+    <div className="pt-[70px] bg-[#2E2E2E]" id={id}>
       <div className="z-10">
         <Submit />
       </div>

@@ -6,8 +6,8 @@ const JotaiProvider = dynamic(() => import("@/providers/jotaiProvider"), {
   ssr: false,
 });
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import "@fontsource/nunito-sans";
+import "@fontsource/nunito-sans/900.css";
 
 export const metadata: Metadata = {
   title: "Codeverse technologies",
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#1E1E1E] text-white`}>
+      <body className={` bg-[#1E1E1E] text-white`}>
         <JotaiProvider>{children}</JotaiProvider>
       </body>
     </html>

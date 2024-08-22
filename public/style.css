@@ -1,6 +1,5 @@
 .textImage {
     font-size: 100px; /* Adjust size as needed */
-    font-weight: bold;
     background-image: url('/fontImage.png'); /* Replace with your image path */
     -webkit-background-clip: text;
     color: transparent;

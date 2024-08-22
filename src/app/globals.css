@@ -9,3 +9,20 @@ html {
 .grid-x {
   max-width: 1440px;
 }
+
+@font-face {
+  font-family: 'NunitoSansBlack';
+  src: url('/font/NunitoSans-Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NunitoSansLight';
+  src: url('/font/NunitoSans-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NunitoSansRegular';
+  src: url('/font/NunitoSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NunitoSansSemibold';
+  src: url('/font/NunitoSans-SemiBold.ttf') format('truetype');
+}

@@ -49,7 +49,7 @@ const Portfolio = ({
       <div className="pb-[40px] xl:pl-[145px] lg:pl-[75px] md:pl-[60px] sm:pl-[30px] pl-0  text-[25px] md:text-[31.11px] pt-[110px] sm:pt-[90px] lg:pt-[110px] xl:pt-[160px]">
         / PORTFOLIO
       </div>
-      <div className="flex flex-row flex-wrap justify-center pb-8">
+      <div className="flex flex-row flex-wrap mx-auto justify-center pb-8">
         {pf_data.map((val, index) => {
           return (
             <div

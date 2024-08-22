@@ -42,7 +42,7 @@ const Skills = ({
       id={id}
     >
       <div className="pb-[60px] sm:pb-[10px] md:pb-[20px] lg:pb-[30px] xl:pl-[145px] lg:pl-[75px] md:pl-[60px] sm:pl-[30px] pl-0 text-[25px] md:text-[31.11px]">
-        / Skills
+        / SKILLS
       </div>
       <div className="grid">
         <div className="absolute right-0 flex justify-end px-0 mx-0">
